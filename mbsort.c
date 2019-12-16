@@ -85,10 +85,10 @@ int main(int argc, char *argv[])
 	printf("\nLet the array's elements be:\n\n");
 	print(a, n);
 	
-	printf("\n\nElements sorted by the serial algorithm:\n\n");
+	printf("\n\nElements sorted by the bubble sort algorithm:\n\n");
 	sbsort(a, n);
 	
-	printf("\n\nElements sorted by the parallel algorithm:\n\n");
+	printf("\n\nElements sorted by the odd-even sort algorithm:\n\n");
 	pbsort(b, n);	//Pass the unsorted array
 	
 	return 0;	
