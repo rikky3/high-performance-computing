@@ -1,3 +1,5 @@
+//Serial and parallel implementation of bubble sort using OpenMP.
+
 //Compile with gcc using the command-line option -fopenmp
 //-fopenmp implies -pthread (and thus is only supported on targets that have support for -pthread!) and -fopenmp-simd
 #include <stdio.h>
