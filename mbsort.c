@@ -65,7 +65,7 @@ void pbsort(int a[], int n)
 	printf("\nTime taken: %f seconds.\n\n", t2 - t1);
 }
 
-int main(int argc, char *argv[])
+int main(void)
 {
 	int n, i;
 	
